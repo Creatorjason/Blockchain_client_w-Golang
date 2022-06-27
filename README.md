@@ -1,2 +1,2 @@
 # Blockchain_client_w-golang
-# Golang implementation of a blockchain client, More improvements coming soon!
+# Golang implementation of a blockchain client, More updates coming soon!
