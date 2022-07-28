@@ -73,7 +73,7 @@ func DefTarget(block *Block) *Proof{
 	return &Proof{block, calTarget}
 
 }
-// We want users to perform to be able to add blocks on the blockchain
+// We want users to be able to add blocks on the blockchain
 // How: If the hash of the block less than target, the block is valid
 func (b *BlockChain) AddBlock(data string){
 	prevBlock := b.Blocks[len(b.Blocks)-1]
